@@ -1,0 +1,208 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.58596, 1.2451, 3.16175, },
+		bbMin = { -3.58208, -1.2451, -0.02862, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/bremserhaus.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/wagen.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/rad.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8652, 0, 0.48728, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/rad.msh",
+						transf = {  1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.38386, 0, 0.48728, 1, },
+					},
+                    {
+					    materials = { "vehicle/waggon/zugschluss.mtl", },
+					    mesh = "vehicle/waggon/zugschluss/zugschluss2_de_back.msh",
+					    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3, 0, 1.1, 1,
+					    },
+				    },
+                    {
+					    materials = { "vehicle/waggon/zugschluss.mtl", },
+					    mesh = "vehicle/waggon/zugschluss/zugschluss2_de_front.msh",
+					    transf = {
+						    1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3, 0, 1.1, 1,
+					    },
+				    },
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/bremserhaus_LOD1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/wagen_LOD1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/rad_LOD1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8652, 0, 0.48728, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/rad_LOD1.msh",
+						transf = {  1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.38386, 0, 0.48728, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 240,
+		},
+		{
+			node = {
+				children = {
+                    {
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/bremserhaus_LOD2.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/wagen_LOD2.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/rad_LOD2.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8652, 0, 0.48728, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/kalkkuebel.mtl", },
+					    mesh = "vehicle/waggon/kalkkuebel/rad_LOD2.msh",
+						transf = {  1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.38386, 0, 0.48728, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 240,
+			visibleTo = 950,
+		},
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+
+		availability = {
+			yearFrom = 1923,
+			yearTo = 1947,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			name = _("kalkmB_name"),
+			description = _("kalkmB_desc"),
+		},
+		maintenance = {
+			lifespan = 29220,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/kalkkuebel/rad.msh", },
+					backBackwardParts = { 6 },
+					backForwardParts = { 5 },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/kalkkuebel/rad_LOD1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/kalkkuebel/rad_LOD2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "waggon_freight_old",
+			},
+			topSpeed = 22.2222222223,
+			weight = 13.2,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{ capacity = 48, type = "STONE", },
+					},
+					{
+						{ capacity = 48, type = "CONSTRUCTION_MATERIALS", },
+					},
+                    {
+						{ capacity = 48, type = "SAND", },
+					},
+				},
+			},
+			loadSpeed = 4,
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
