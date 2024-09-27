@@ -159,17 +159,19 @@ return {
 			compartments = {
 				{
 					{
-						{ capacity = 48, type = "STONE", },
+						{ capacity = 32, type = "STONE", },
 					},
 					{
-						{ capacity = 48, type = "CONSTRUCTION_MATERIALS", },
+						{ capacity = 32, type = "CONSTRUCTION_MATERIALS", },
 					},
                     {
-						{ capacity = 48, type = "SAND", },
+						{ capacity = 32, type = "SAND", },
 					},
 				},
 			},
-			loadSpeed = 4,
+			loadSpeed = 2,
+			maxVolume = 8,
+			maxWeight = 35,
 			multipleUnitOnly = false,
 			groupFileName = "vehicle/waggon/menu_kalkkuebel.mdl",
 			reversible = false,
