@@ -168,7 +168,7 @@ return {
 			maxVolume = 8,
 			maxWeight = 35,
 			multipleUnitOnly = false,
-			groupFileName = "vehicle/waggon/menu_kalkkuebel.mdl",
+			groupFileName = "vehicle/waggon/kalkkuebel/menu_kalkkuebel.mdl",
 			reversible = false,
 		},
 	},
